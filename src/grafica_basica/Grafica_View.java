@@ -54,7 +54,7 @@ public class Grafica_View extends javax.swing.JFrame {
         Pnl_Lienzo.setLayout(Pnl_LienzoLayout);
         Pnl_LienzoLayout.setHorizontalGroup(
             Pnl_LienzoLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGap(0, 554, Short.MAX_VALUE)
+            .addGap(0, 577, Short.MAX_VALUE)
         );
         Pnl_LienzoLayout.setVerticalGroup(
             Pnl_LienzoLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
@@ -130,83 +130,77 @@ public class Grafica_View extends javax.swing.JFrame {
         //Dibujo.HacerCuadroRedondeado(Pnl_Lienzo.getGraphics(), 50, 50, 100, 50, 25, 25, "Azul");
         
         //locomotora
-        Dibujo.HacerCuadroRelleno(this.Pnl_Lienzo.getGraphics(), 70, 100, 80, 80, "Naranja");
-        
-        Dibujo.HacerCuadroRelleno(this.Pnl_Lienzo.getGraphics(), 150, 60, 60, 120, "Naranja");
-        
-        Dibujo.HacerCuadroRelleno(this.Pnl_Lienzo.getGraphics(), 160, 70, 40, 40, "");
-        
-        Dibujo.HacerCuadroRedondeadoRelleno(this.Pnl_Lienzo.getGraphics(), 140, 50, 80, 10, 10, 10, "Rojo");
-        
-        Dibujo.HacerCuadroRelleno(this.Pnl_Lienzo.getGraphics(), 80, 60, 15, 40, "Rojo");
-        
-        Dibujo.HacerCuadroRelleno(this.Pnl_Lienzo.getGraphics(), 75, 50, 25, 10, "Naranja");
-        
-        Dibujo.HacerCuadroRelleno(this.Pnl_Lienzo.getGraphics(), 210, 135, 25, 10, "Naranja");
-        
+            //motor
+            Dibujo.HacerCuadroRelleno(this.Pnl_Lienzo.getGraphics(), 70, 100, 80, 80, "Naranja");
+            //cabina
+            Dibujo.HacerCuadroRelleno(this.Pnl_Lienzo.getGraphics(), 150, 60, 60, 120, "Naranja");
+            //ventana
+            Dibujo.HacerCuadroRelleno(this.Pnl_Lienzo.getGraphics(), 160, 70, 40, 40, "");
+            //techo
+            Dibujo.HacerCuadroRedondeadoRelleno(this.Pnl_Lienzo.getGraphics(), 140, 50, 80, 10, 10, 10, "Rojo");
+            //chimenea 1
+            Dibujo.HacerCuadroRelleno(this.Pnl_Lienzo.getGraphics(), 80, 60, 15, 40, "Rojo");
+            //chimenea 2
+            Dibujo.HacerCuadroRelleno(this.Pnl_Lienzo.getGraphics(), 75, 50, 25, 10, "Naranja");
+            //gancho vagon
+            Dibujo.HacerCuadroRelleno(this.Pnl_Lienzo.getGraphics(), 210, 135, 35, 10, "Naranja");
+            //llanta locomotora
+            Dibujo.HacerCirculoRelleno(this.Pnl_Lienzo.getGraphics(), 80, 190, 20, "Rosado");
+            Dibujo.HacerCirculoRelleno(this.Pnl_Lienzo.getGraphics(), 140, 190, 20, "Rosado");
+            Dibujo.HacerCirculoRelleno(this.Pnl_Lienzo.getGraphics(), 180, 180, 40, "Rosado");
+            //Parachoques
+            Dibujo.HacerArcoRelleno(this.Pnl_Lienzo.getGraphics(), 40, 140, 60, 120, 90, 90, "Rojo");
+            
         //vagon 1
-        Dibujo.HacerCuadroRelleno(this.Pnl_Lienzo.getGraphics(), 230, 100, 80, 80, "Rojo");
-        
-        Dibujo.HacerCuadroRelleno(this.Pnl_Lienzo.getGraphics(), 250, 120, 40, 40, "Amarillo");
-        
-        Dibujo.HacerCuadroRedondeadoRelleno(this.Pnl_Lienzo.getGraphics(), 220, 90, 100, 10, 10, 10, "Naranja");
-        
-        Dibujo.HacerCuadroRelleno(this.Pnl_Lienzo.getGraphics(), 310, 135, 25, 10, "Naranja");
-        
+            //caja
+            Dibujo.HacerCuadroRelleno(this.Pnl_Lienzo.getGraphics(), 240, 100, 80, 80, "Rojo");
+            //figura
+            Dibujo.HacerCuadroRelleno(this.Pnl_Lienzo.getGraphics(), 260, 120, 40, 40, "Amarillo");
+            //techo
+            Dibujo.HacerCuadroRedondeadoRelleno(this.Pnl_Lienzo.getGraphics(), 230, 90, 100, 10, 10, 10, "Naranja");
+            //gancho vagon
+            Dibujo.HacerCuadroRelleno(this.Pnl_Lienzo.getGraphics(), 320, 135, 35, 10, "Naranja");
+            //llanta vagon1
+            Dibujo.HacerCirculoRelleno(this.Pnl_Lienzo.getGraphics(), 250, 190, 20, "Rosado");
+            Dibujo.HacerCirculoRelleno(this.Pnl_Lienzo.getGraphics(), 310, 190, 20, "Rosado");
+            
         //vagon 2
-        Dibujo.HacerCuadroRelleno(this.Pnl_Lienzo.getGraphics(), 330, 100, 80, 80, "Rojo");
-        
-        Dibujo.HacerCuadroRedondeadoRelleno(this.Pnl_Lienzo.getGraphics(), 320, 90, 100, 10, 10, 10, "Naranja");
-        
-        Dibujo.HacerCuadroRelleno(this.Pnl_Lienzo.getGraphics(), 410, 135, 25, 10, "Naranja");
-        
+            //caja
+            Dibujo.HacerCuadroRelleno(this.Pnl_Lienzo.getGraphics(), 350, 100, 80, 80, "Rojo");
+            //techo
+            Dibujo.HacerCuadroRedondeadoRelleno(this.Pnl_Lienzo.getGraphics(), 340, 90, 100, 10, 10, 10, "Naranja");
+            //gancho vagon
+            Dibujo.HacerCuadroRelleno(this.Pnl_Lienzo.getGraphics(), 430, 135, 35, 10, "Naranja");
+            //llanta vagon 2
+            Dibujo.HacerCirculoRelleno(this.Pnl_Lienzo.getGraphics(), 360, 190, 20, "Rosado");
+            Dibujo.HacerCirculoRelleno(this.Pnl_Lienzo.getGraphics(), 420, 190, 20, "Rosado");
+            //tirangulo
+            int X1 = 370;
+            int Y1 = 120;
+            
+            int[] valoresX = {0 + X1, 40 + X1, 20 + X1};
+            int[] valoresY = {40 + Y1, 40 + Y1, 0 + Y1};
+            int Lado = 3;
+            
+            Dibujo.HacerPoligonoRelleno(this.Pnl_Lienzo.getGraphics(), valoresX, valoresY, Lado, "Azul");
+            
         //vagon3
-        Dibujo.HacerCuadroRelleno(this.Pnl_Lienzo.getGraphics(), 430, 100, 80, 80, "Rojo");
-        
-        Dibujo.HacerCuadroRedondeadoRelleno(this.Pnl_Lienzo.getGraphics(), 420, 90, 100, 10, 10, 10, "Naranja");
-        
-        //llanta locomotora
-        Dibujo.HacerCirculoRelleno(this.Pnl_Lienzo.getGraphics(), 80, 190, 20, "Rosado");
-        
-        Dibujo.HacerCirculoRelleno(this.Pnl_Lienzo.getGraphics(), 140, 190, 20, "Rosado");
-        
-        Dibujo.HacerCirculoRelleno(this.Pnl_Lienzo.getGraphics(), 180, 180, 40, "Rosado");
-        
-        //llanta vagon1
-        Dibujo.HacerCirculoRelleno(this.Pnl_Lienzo.getGraphics(), 240, 190, 20, "Rosado");
-        
-        Dibujo.HacerCirculoRelleno(this.Pnl_Lienzo.getGraphics(), 300, 190, 20, "Rosado");
-        
-        //llanta vagon 2
-        Dibujo.HacerCirculoRelleno(this.Pnl_Lienzo.getGraphics(), 340, 190, 20, "Rosado");
-        
-        Dibujo.HacerCirculoRelleno(this.Pnl_Lienzo.getGraphics(), 400, 190, 20, "Rosado");
-        
-        //llanta vagon 3
-        Dibujo.HacerCirculoRelleno(this.Pnl_Lienzo.getGraphics(), 440, 190, 20, "Rosado");
-        
-        Dibujo.HacerCirculoRelleno(this.Pnl_Lienzo.getGraphics(), 500, 190, 20, "Rosado");
-        
-        //Parachoques
-        Dibujo.HacerArcoRelleno(this.Pnl_Lienzo.getGraphics(), 40, 140, 60, 120, 90, 90, "Rojo");
-        
-        int X1 = 350;
-        int Y1 = 120;
-        
-        int[] valoresX = {0 + X1, 40 + X1, 20 + X1};
-        int[] valoresY = {40 + Y1, 40 + Y1, 0 + Y1};
-        int Lado = 3;
-        
-        Dibujo.HacerPoligonoRelleno(this.Pnl_Lienzo.getGraphics(), valoresX, valoresY, Lado, "Azul");
-        
-        int X2 = 450;
-        int Y2 = 120;
-        
-        int[] valoresX2 = {0 + X2, 10 + X2, 30 + X2, 40 + X2, 30 + X2, 10 + X2};
-        int[] valoresY2 = {20 + Y2, 40 + Y2, 40 + Y2, 20 + Y2, 0 + Y2, 0 + Y2};
-        int Lado2 = 6;
-        
-        Dibujo.HacerPoligonoRelleno(this.Pnl_Lienzo.getGraphics(), valoresX2, valoresY2, Lado2, "Verde");
+            //caja
+            Dibujo.HacerCuadroRelleno(this.Pnl_Lienzo.getGraphics(), 460, 100, 80, 80, "Rojo");
+            //techo
+            Dibujo.HacerCuadroRedondeadoRelleno(this.Pnl_Lienzo.getGraphics(), 450, 90, 100, 10, 10, 10, "Naranja");
+            //llanta vagon 3
+            Dibujo.HacerCirculoRelleno(this.Pnl_Lienzo.getGraphics(), 470, 190, 20, "Rosado");
+            Dibujo.HacerCirculoRelleno(this.Pnl_Lienzo.getGraphics(), 530, 190, 20, "Rosado");
+            //hexagono
+            int X2 = 480;
+            int Y2 = 120;
+            
+            int[] valoresX2 = {0 + X2, 10 + X2, 30 + X2, 40 + X2, 30 + X2, 10 + X2};
+            int[] valoresY2 = {20 + Y2, 40 + Y2, 40 + Y2, 20 + Y2, 0 + Y2, 0 + Y2};
+            int Lado2 = 6;
+            
+            Dibujo.HacerPoligonoRelleno(this.Pnl_Lienzo.getGraphics(), valoresX2, valoresY2, Lado2, "Verde");
         
         
     }//GEN-LAST:event_Btn_DibujarMouseClicked
